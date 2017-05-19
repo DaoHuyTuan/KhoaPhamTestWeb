@@ -1,0 +1,44 @@
+#menu {
+  width: 100%;
+  height: 80px;
+  background-color: white; }
+  #menu #logo {
+    width: 30%;
+    height: 100%;
+    float: left; }
+    #menu #logo #lot {
+      width: 30%;
+      height: 100%;
+      background-color: #fbca00;
+      float: left; }
+    #menu #logo #img_logo {
+      width: 50%;
+      height: 100%;
+      background-color: #fbca00;
+      float: left; }
+    #menu #logo #than {
+      overflow: hidden;
+      width: 20%;
+      height: 100%; }
+      #menu #logo #than #ex {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 -20px;
+        -webkit-transform: skew(-20deg);
+        background-color: #fbca00;
+        overflow: hidden;
+        position: relative; }
+  #menu #main-menu {
+    width: 70%;
+    height: 100%;
+    float: left; }
+    #menu #main-menu li {
+      display: inline-block;
+      margin-left: 30px;
+      margin-top: 32px;
+      font-size: 16px;
+      font-weight: bold; }
+    #menu #main-menu li:hover {
+      color: #fbca00; }
+
+/*# sourceMappingURL=menu.css.map */

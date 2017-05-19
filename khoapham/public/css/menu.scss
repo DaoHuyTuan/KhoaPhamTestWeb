@@ -1,0 +1,57 @@
+$backgroundColor: #fbca00;
+#menu{
+  width:100%;
+  height:80px;
+  background-color: white;
+  
+
+
+    #logo{
+        width:30%;
+        height:100%;
+        float: left;
+        #lot{
+            width:30%;
+            height:100%;
+            background-color: $backgroundColor;
+            float: left;
+        }
+        #img_logo {
+            width:50%;
+            height:100%;
+            background-color: $backgroundColor;
+            float: left;
+        }
+        #than{
+            overflow:hidden;
+            width: 20%;
+            height:100%;
+
+            #ex {
+              width: 100%;
+              height:100%;
+              margin: 0 0 0 -20px;
+              -webkit-transform: skew(-20deg);
+              background-color: $backgroundColor;
+              overflow:hidden;
+              position:relative;
+            }
+        }
+  }
+  #main-menu{
+        width:70%;
+        height:100%;
+        float: left;
+        li{
+          display: inline-block;
+          margin-left: 30px;
+          margin-top: 32px;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        li:hover{
+          color: $backgroundColor;
+        }
+
+  }
+}
