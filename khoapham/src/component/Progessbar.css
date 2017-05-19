@@ -1,0 +1,13 @@
+#Loader {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  float: left; }
+
+#progessBar {
+  width: 2%;
+  height: 2px;
+  background-color: black;
+  float: left; }
+
+/*# sourceMappingURL=Progessbar.css.map */
