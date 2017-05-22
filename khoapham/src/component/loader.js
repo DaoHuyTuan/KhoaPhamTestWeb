@@ -29,7 +29,7 @@ class Loader extends Component{
                         width++;
                         progessBar.style.width = width + '%';
                     }
-                    if(width == 100){
+                    if(width === 100){
                        width = 1 ;
                       progessBar.style.width = width;
                     }

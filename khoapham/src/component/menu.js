@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Loader from './loader';
 class Menu extends Component{
   render(){
     return(
@@ -23,6 +24,7 @@ class Menu extends Component{
                   <li>Học Online</li>
                   <li>Liên Hệ</li>
             </div>
+            <Loader/>
       </div>
     );
   }
