@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import './slider.css';
 
+
 class Slider extends Component
 {
-
+  
   render()
   {
-
+    move();
     return(
 
           <div className="slideshow-container">
@@ -23,10 +24,13 @@ class Slider extends Component
                 <img src="./img/training.jpg"  width="100%"/>
                 </div>
 
-                <a className="prev" onClick={this.plusSlides(-1)}>&#10094;</a>
-                <a className="next" onClick={this.plusSlides(1)}>&#10095;</a>
+                <a className="prev" onClick={this.back}>&#10094;</a>
+                <a className="next" onClick={this.next}>&#10095;</a>
+
+
           </div>
           );
   }
+
 }
 export default Slider;
